@@ -1,0 +1,323 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+header {
+    color: #ffffff;
+    width:100%;
+    margin: 0 auto;
+    border-bottom: solid #ccc 2px;
+}
+
+html, body {
+    height:100%;
+    margin:0; /*used for sticky footer*/
+}
+
+.background {
+    background-image: url(../images/connectwork.png);
+    padding: 20px 0 85px;
+    margin: 0 auto -50px; /*stick footer*/
+    min-height:100%; /*stick footer*/
+}
+
+.content {
+    padding: 30px 40px 30px 40px;
+}
+
+        /*Headers*/
+
+h1 {
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    color:#4aaaa5;
+    font-weight:bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+    padding:10px;
+    text-align: center;
+}
+
+        /*Line*/
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+        /*Name*/
+
+.top {
+    max-width:960px;
+    margin: 0 auto;
+}
+
+.name {
+    float: left;
+}
+
+.Rachel {
+    background-color: #4aaaa5;
+    padding: 20px;
+    color: white;
+    width: 150px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+        /*Navigation*/
+
+.nav {
+    float: right;
+}
+    
+nav a {
+text-decoration: none;
+color: #4aaaa5;
+}
+    
+.nav-li {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    display: inline;
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: solid #dddddd 2px;
+    position:relative;
+    top: 20px;
+}
+
+        /*Bio Content*/
+
+.container {
+    max-width:960px;
+    margin: 0px auto;
+    background-color: white;
+    border: solid #ddd 1px;
+}
+
+.bio-pic {
+    float:left;
+    width:200px;
+    height: 200px;
+    margin-right:20px;
+    padding-bottom: 10px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+        /*Footer & Clear*/
+
+.footer {
+    width:100%;
+    text-align:center;
+    background-color: #666;
+    border-top: solid #4aaaa5 8px;
+    bottom: 0px;
+    clear:both;
+    height: 50px;
+}
+
+.copyright {
+    font-size: 10px;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position:relative;
+    padding-top:20px;
+}
+
+    /*Contact Styling*/
+
+.input {
+    padding: 5px 0px 5px;
+    width:100%;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 12px;
+    text-indent: 5px;
+    resize:vertical;
+} 
+
+textarea {
+    height: 150px;
+    width: 100%;
+    border-color: #ddd;
+}
+
+.submit {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #4aaaa5;
+    color: #fff;
+    border: solid none 1px;
+    margin-top: 10px;
+    padding: 10px 25px 10px;
+    font-size: 16px;
+}
+
+label {
+    font-size: 16px;
+    display:block;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 10px 0 5px;
+}
+
+    /* Portfolio Styling*/
+
+.cap {
+    padding: 20px 70px 20px;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #4aaaa5;
+    width: 140px;
+    color:#fff;
+    text-align: center;
+    white-space: nowrap;
+    position: absolute;
+    bottom:45px;
+}
+
+.portfolio {
+    padding: 20px 35px 20px 0px;
+    max-width: 280px;
+    margin-right:0;
+    display: inline-block;
+    position:relative;
+}
+
+img {
+    width:280px;
+    height:200px;
+}
+
+
+
+@media only screen and (min-width: 769) and (max-width: 980px) {
+    .top {
+        width:80%;
+    }
+}
+
+@media only screen and (min-width: 641) and (max-width: 768px) {
+    .top {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+}
+
+/*@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+}*/
+
+@media only screen and (max-width: 640px) {
+    
+    header{
+     position: static;
+    }
+    
+    .top {
+        width:100%;
+        height:130px;
+    }
+
+    .container {
+        width: 80%;
+        position: relative;
+        right:0;
+    }
+
+    .bio-pic {
+        margin-left:11%;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .name {float:none;}
+
+    .Rachel {width:100%;
+    padding-right:50px;
+    padding-left:5px;
+    }
+
+    h1 {
+        /*float:none;*/
+    }
+    /*.Rachel {
+        /*float:none;
+        padding: 0;
+        max-width: 640px;*/
+    
+
+    .name {
+        /*float:none;*/
+    }
+
+    .content {
+        /*padding: 30px 25px 30px 25px;*/
+        /*max-width: 280px;*/
+        /*margin-right: 0px;*/
+        /*display: inline-block;*/
+    }
+
+    /*header {
+        width: 100%;
+    }*/
+
+    
+    
+    .nav {
+        /*float:left;*/
+        width:100%;
+        
+        
+    }
+
+    .nav-li {
+        
+        /*margin:0;
+        border:0;
+        top:10px;
+        display:inline-block;*/
+        /*float:left;*/
+        padding-left:40px;
+        padding-right:20px;
+        
+    
+}}
+
+.cf {
+    clear:both;
+    overflow:auto; 
+}
