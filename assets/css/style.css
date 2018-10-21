@@ -252,7 +252,9 @@ img {
     }
 
     .bio-pic {
-        margin-left:11%;
+        margin-left:15%;
+        margin-right:5%;
+        width:70%;
     }
 
     p {
@@ -273,8 +275,8 @@ img {
 
     .nav-li {
         
-    padding-left:40px;
-    padding-right:20px;
+    margin-left:13%;
+    padding-right:2%;
     }
 }
 
