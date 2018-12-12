@@ -133,14 +133,6 @@ p {
     color: #777777;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
-
-a:hover {
-    color: grey;
-}
         /*Footer & Clear*/
 
 .footer {

@@ -137,10 +137,6 @@ a {
     text-decoration: none;
     color: black;
 }
-
-a:hover {
-    color: grey;
-}
         /*Footer & Clear*/
 
 .footer {
